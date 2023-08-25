@@ -42,8 +42,8 @@ module.exports = {
         name: faker.lorem.sentence(2),
         description: faker.lorem.sentence(10),
         images: JSON.stringify(
-          [...Array(7)].map(
-            () => `${faker.image.url()}?random=${faker.string.numeric(30)}`,
+          [...Array(3)].map(
+            () => `${faker.image.url()}?random=${faker.string.numeric(20)}`,
           ),
         ),
         vendor_code: faker.internet.password(),
